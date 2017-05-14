@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="react," />
 
 
 
@@ -90,15 +90,17 @@
 
 
 
-<meta name="description" content="time will tell">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Gea&#39;s Tech Life">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="初试react官方教程 123456789101112131415161718192021222324252627282930313233let isOK = false;let text = &apos;ggg&apos;;const span = isOK ? &amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt; : &amp;lt;span&amp;gt;&amp;#123;text&amp;#125;&amp;lt;/span&amp;gt;;functi">
+<meta name="keywords" content="react">
+<meta property="og:type" content="article">
+<meta property="og:title" content="react初学">
+<meta property="og:url" content="http://yoursite.com/2017/05/13/react初学/index.html">
 <meta property="og:site_name" content="Gea&#39;s Tech Life">
-<meta property="og:description" content="time will tell">
+<meta property="og:description" content="初试react官方教程 123456789101112131415161718192021222324252627282930313233let isOK = false;let text = &apos;ggg&apos;;const span = isOK ? &amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt; : &amp;lt;span&amp;gt;&amp;#123;text&amp;#125;&amp;lt;/span&amp;gt;;functi">
+<meta property="og:updated_time" content="2017-05-14T08:36:05.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Gea&#39;s Tech Life">
-<meta name="twitter:description" content="time will tell">
+<meta name="twitter:title" content="react初学">
+<meta name="twitter:description" content="初试react官方教程 123456789101112131415161718192021222324252627282930313233let isOK = false;let text = &apos;ggg&apos;;const span = isOK ? &amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt; : &amp;lt;span&amp;gt;&amp;#123;text&amp;#125;&amp;lt;/span&amp;gt;;functi">
 
 
 
@@ -126,13 +128,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/05/13/react初学/"/>
 
 
 
 
 
-  <title>Gea's Tech Life</title>
+  <title>react初学 | Gea's Tech Life</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -158,9 +160,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-   page-home 
- ">
+  <div class="container sidebar-position-right page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -253,9 +253,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -281,9 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/13/react初学/" itemprop="url">react初学</a></h1>
+          <h1 class="post-title" itemprop="name headline">react初学</h1>
         
 
         <div class="post-meta">
@@ -352,186 +350,75 @@
       
 
       
-        
-          
-            <h1 id="初试react"><a href="#初试react" class="headerlink" title="初试react"></a>初试react</h1><p>官方教程</p>
+        <h1 id="初试react"><a href="#初试react" class="headerlink" title="初试react"></a>初试react</h1><p>官方教程</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> isOK = <span class="literal">false</span>;</div><div class="line"><span class="keyword">let</span> text = <span class="string">'ggg'</span>;</div><div class="line"><span class="keyword">const</span> span = isOK ? &lt;span&gt;1&lt;/span&gt; : &lt;span&gt;&#123;text&#125;&lt;/span&gt;;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">UserCard</span>(<span class="params">props</span>)</span>&#123;</div><div class="line">  <span class="keyword">return</span> &lt;span&gt;my name is &#123;props.name&#125;&lt;/span&gt;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">const</span> users = [</div><div class="line">  &#123; <span class="attr">name</span>: <span class="string">'jack'</span>, <span class="attr">age</span>: <span class="string">'19'</span>&#125;,</div><div class="line">  &#123; <span class="attr">name</span>: <span class="string">'zhijing'</span>, <span class="attr">age</span>: <span class="string">'27'</span>&#125;,</div><div class="line">  &#123; <span class="attr">name</span>: <span class="string">'jazzck'</span>, <span class="attr">age</span>: <span class="string">'29'</span>&#125;,</div><div class="line">];</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">App</span> <span class="keyword">extends</span> <span class="title">Component</span> </span>&#123;</div><div class="line">  render() &#123;</div><div class="line">    <span class="keyword">return</span> (</div><div class="line">      &lt;div className="App"&gt;</div><div class="line">        &lt;div className="App-header"&gt;</div><div class="line">          &lt;img src=&#123;logo&#125; className="App-logo" alt="logo" /&gt;</div><div class="line">          &lt;h2&gt;Welcome to React&lt;/h2&gt;</div><div class="line">        &lt;/div&gt;</div><div class="line">        &#123;text&#125;</div><div class="line">        &lt;p className="App-intro"&gt;</div><div class="line">          To get started, edit &lt;code&gt;src/App.js&lt;/code&gt; and save to reload.</div><div class="line">        &lt;/p&gt;</div><div class="line">        &lt;UserCard user.&#123;...&#125; /&gt;</div><div class="line"></div><div class="line">        &#123;text&#125;</div><div class="line">        &#123;span&#125;</div><div class="line">      &lt;/div&gt;</div><div class="line">    );</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/13/docker/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Gea">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Gea's Tech Life">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/13/docker/" itemprop="url">docker初次学习</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-13T15:27:34+08:00">
-                2017-05-13
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/backend/" itemprop="url" rel="index">
-                    <span itemprop="name">backend</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/react/" rel="tag"># react</a>
           
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
         
-          <h1 id="docker-安装"><a href="#docker-安装" class="headerlink" title="docker 安装"></a>docker 安装</h1><p>我本来是想选择 <strong>docker toolbox</strong> ,希望用一套纯命令行工具来操作docker，但是却似乎要淘汰掉了，加之总是出问题，还是选择了一键安装的docker。</p>
-<p>在mac上安装毫无压力，一路点下去就好。win系统需要专业版及企业版，因为家庭版的内核有些功能没有开启，不能使用docker。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/05/13/docker/#more" rel="contents">
-              Read more &raquo;
-            </a>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/05/13/docker/" rel="next" title="docker初次学习">
+                <i class="fa fa-chevron-left"></i> docker初次学习
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
 
-    <div>
-      
-    </div>
+          <span class="post-nav-divider"></span>
 
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -539,6 +426,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -558,8 +449,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -621,6 +521,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#初试react"><span class="nav-number">1.</span> <span class="nav-text">初试react</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -739,6 +655,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
 
   
 
